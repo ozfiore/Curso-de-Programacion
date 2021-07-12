@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página Web de Fiore</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Lobster+Two&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,400&family=Lobster+Two&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Lobster+Two&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Acme&family=Dancing+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Acme&family=Dancing+Script&family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./script.js"></script>
+  </head>
+  <body style="background-color: #f59872; width: 100%;">
+    <nav
+      class="navbar navbar-expand-lg navbar-light"
+      style="background-color: #3c405b; width: 100%;"
+    >
+      <a
+        class="navbar-brand"
+        href="#"
+        style="
+          color: #f59872;
+          padding-left: 10px;
+          font-family: 'Satisfy', cursive;
+        "
+        ><h4>Fiorella Orsini Z</h4></a
+      >
+      <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+      id="navbartogglebutton"
+
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="container-fluid"></div>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto" style="padding-right: 10px">
+          <li class="nav-item">
+            <a
+              class="nav-link active"
+              aria-current="page"
+              href="#"
+              style="color: #f59872;
+              font-family: 'Satisfy', cursive; font-size: 1.2em;"
+            >
+              <center>Inicio</center></a
+            >
+          </li>
+          <li class="nav-item supsup">
+            <a
+              href="#aboutme"
+              class="nav-link text-nowrap"
+              style="color: #f59872;
+              font-family: 'Satisfy', cursive; font-size: 1.2em;">
+              <center>Sobre mí</center></a>
+          </li>
+          <li class="nav-item">
+            <a
+              href="#contacto"
+              class="nav-link"
+              style="color: #f59872;
+              font-family: 'Satisfy', cursive; font-size: 1.2em;"
+              ><center>Contacto</center></a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div
+      id="padre"
+      style="
+        width: 100%;
+        height: 100vh;
+        display: inline-block;
+        background-color: #81b39a;
+      "
+    >
+      <div
+        id="izquierda"
+        style="
+          background-color: #81b39a;
+          width: 50%;
+          height: 100vh;
+          float: left;
+          position: absolute;
+        "
+      >
+        <h1 class="hello" style="color: #26283a; margin-top: 200px">
+          <center>Hola! Hello! Bonjour!</center>
+        </h1>
+        <h3 class="I-am" style="color: #26283a; padding-left: 20px">
+          <i
+            ><center>
+              Soy Fiore, futura biotecnóloga interesada en el diseño web.
+            </center></i
+          >
+        </h3>
+      </div>
+      <div
+        id="derecha"
+        style="
+          background-color: #81b39a;
+          width: 50%;
+          height: 100vh;
+          float: right;
+          margin-right: 15px;
+        "
+      >
+        <center>
+          <img
+            height="420"
+            style="padding-top: 60px"
+            src="./img/dope.png"
+            alt="ícono de una persona programando"
+          />
+        </center>
+      </div>
+    </div>
+    <div
+      class="container-fluid"
+      style="
+        width: 100%;
+        height: 100vh;
+        display: inline-block;
+        background-color: #f59872;
+      "
+    >
+      <div
+        class="row special" id="aboutme"
+        style="height: 100vh; width: 100%; margin-top: 3cm; background-color: #f59872;"
+      >
+        <div class="col-4">
+          <center>
+            <h1
+              class="hello"
+              style="color: #26283a; margin-top: 220px; width: 9cm"
+            >
+              <center>Sobre mí/About me</center>
+            </h1>
+          </center>
+        </div>
+        <div class="col-sm-2">
+          <center>
+            <h5 class="I-am" style="padding-top: 2.9cm">
+              <b>Tecnologías que aprendí</b>
+            </h5>
+            <ol class="lista1" style="padding-top: 0.5cm">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>DOM</li>
+              <li>BootStrap</li>
+              <li>jQuery</li>
+              <li>GitHub</li>
+            </ol>
+          </center>
+        </div>
+        <div class="col-sm-2" style="margin-top: 2cm">
+          <center>
+            <img
+              height="150"
+              style="padding-top: 1cm"
+              src="./img/WhatsApp Image 2021-07-06 at 18.30.26.jpeg"
+              alt="html"
+            />
+          </center>
+          <center>
+            <img
+              height="120"
+              style="padding-top: 10px"
+              src="./img/WhatsApp Image 2021-07-06 at 18.31.44.jpeg"
+              alt="css"
+            />
+          </center>
+          <center>
+            <img
+              height="75"
+              style="padding-top: 10px"
+              src="./img/WhatsApp Image 2021-07-06 at 21.01.09.jpeg"
+              alt="GitHub"
+            />
+          </center>
+        </div>
+        <div class="col-sm-2" style="margin-top: 2cm">
+          <h5 class="I-am" style="padding-bottom: 1cm; padding-top: 1cm">
+            <b>Mis hobbies</b>
+          </h5>
+          <ul class="lista1" style="font-size:large; 0,5cm">
+            <li>Tocar la guitarra</li>
+            <li>Leer</li>
+            <li>Mirar películas</li>
+            <li>Aprender idiomas</li>
+            <li>Mirar netflix</li>
+            <li>Comer</li>
+            <li>Escuchar música</li>
+          </ul>
+        </div>
+        <div class="col-sm-2" style="margin-top: 2cm; display: block;">
+          <center>
+            <img
+              height="150"
+              style="padding-top: 1cm"
+              src="./img/WhatsApp Image 2021-07-06 at 23.06.10.jpeg"
+              alt="Guitarra"
+            />
+          </center>
+          <center>
+            <img
+              height="150"
+              style="padding-top: 1cm"
+              src="./img/WhatsApp Image 2021-07-06 at 23.10.53.jpeg"
+              alt="Netflix"
+            />
+          </center>
+        </div>
+      </div>
+      <div style="background-color: #555764; display: block; border-radius: 15px;">
+      <footer style="background-color: #555764; border-radius: 15px; height: 75px;" id="contacto">
+        <div class="row align-items-center" style="width: 100%">
+          <div class="col-sm"><h6 style="color: #aed6c2; padding-top: 25px"><center><ion-icon name="mail-sharp"></ion-icon>&ensp; <a href="mailto:orsinifiorella@gmail.com" style="color: #aed6c2a6;"> orsinifiorella@gmail.com</a></center></h6></div>
+            <div class="col-sm"><h6 style="color: #aed6c2; padding-top: 25px"><center><ion-icon name="logo-github"></ion-icon>&ensp;<a href="https://github.com/ozfiore" style="color: #aed6c2a6;">ozfiore</a></center></h6></div>     
+            <div class="col-sm"><h6 style="color: #aed6c2; padding-top: 25px"><center><ion-icon name="logo-twitter"></ion-icon>&ensp;<a href="https://twitter.com/lio_skywalker" style="color: #aed6c2a6;">@lio_skywalker</a></center></h6></div>
+          </div>
+      </footer>
+    </div>
+      <div style="width: 100%; height:20px"></div>
+  
+    </div>
+<script src="./script.js"></script>
+    <script src="scrollIntoView.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
