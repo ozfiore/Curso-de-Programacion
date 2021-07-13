@@ -1,0 +1,37 @@
+.hello{
+    font-family: 'Lobster Two', cursive;
+}
+
+.I-am{
+    font-family: 'Lato', sans-serif;
+}
+
+h4 {
+    font-family: 'Satisfy', cursive;
+    font-size: 1.5em;
+}
+
+.lista1 {
+    font-family: 'Lato', sans-serif;
+    color: #26283a;
+    font-size: 1.3em;
+}
+
+/*  #hijoder1{
+    margin-left: 437px;
+    padding-bottom: 593px;
+
+}*/
+
+.nav-link { 
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1em;
+}
+
+img {
+    border-radius: 10%;
+  }
+
+html {
+    scroll-behavior: smooth;
+  }
